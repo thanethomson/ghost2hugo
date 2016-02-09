@@ -31,6 +31,7 @@ your Hugo project and rebuild.
   > pip install -r requirements.txt
   ```
 4. Run!
+
   ```bash
   > ./ghost2hugo.py /path/to/ghost.db --post-template=templates/post.md --post-output=./posts \
     --author-template=templates/author.yml --author-output=./authors
